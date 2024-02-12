@@ -80,12 +80,18 @@ img {
 }
 .aligned-text_center {
   text-align: center; /*предыдущий ревьюер сказал зацентровать*/
+  font-size: 100px;
+  font-weight: 700;
 }
 .aligned-text_right {
   text-align: end;
+  font-size: 100px;
+  font-weight: 700;
 }
 .aligned-text {
   line-height: 115px;
+  font-size: 100px;
+  font-weight: 700;
 }
 .letter-spacing-extended {
   position: relative;
@@ -141,6 +147,7 @@ img {
   flex-direction: column;
   align-items: center;
   flex-grow: 1 1 1;
+  text-decoration: none;
 }
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
